@@ -1,3 +1,8 @@
+<div align="center">
+	<img alt="edit" width="100%" title="#phrases2frases" src=".github/app.png">
+</div>
+</br>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
