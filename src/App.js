@@ -1,11 +1,13 @@
+import { GlobalStyle } from './App.styles'
 import { Phrases } from './components/Phrases'
 
 
 const App = () => {
   return (
-    <div className="App">
+    <>
+      <GlobalStyle />
       <Phrases />
-    </div>
+    </>
   )
 }
 
