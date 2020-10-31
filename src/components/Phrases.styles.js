@@ -62,4 +62,7 @@ export const Phrase = styled.div`
     border-radius: 4rem;
     background-image: linear-gradient(to right, #e74c3c, #3498db);
   }
+  .error {
+    color: #ff5252;
+  }
 `
