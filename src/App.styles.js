@@ -7,8 +7,7 @@ export const GlobalStyle = createGlobalStyle`
     border-box: none;
   }
   html {
-    background-image: linear-gradient(#593E1A, blanchedalmond);
-    background-size: cover;
+    background-color: #593E1A;
     height: 100vh;
   }
 `
