@@ -1,75 +1,121 @@
-<div align="center">
-	<img alt="edit" width="100%" title="#phrases2frases" src=".github/app.png">
-</div>
+<p align="center">
+  <a href="https://github.com/thiagogre/frontend-phrases/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/thiagogre/frontend-phrases">
+  </a>
+    
+   <a href="https://github.com/thiagogre/frontend-phrases/blob/master/LICENSE">  
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+   </a>
+
+   <a href="https://github.com/thiagogre/frontend-phrases/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/thiagogre/frontend-phrases?style=social">
+  </a>
+
+  <a href="https://www.linkedin.com/in/thiagogre/">
+    <img alt="Built by Thiago" src="https://img.shields.io/badge/built%20by-Thiago%20Gregorio-%237519C1">
+  </a>
+</p>
+<p align="center">
+  <img align="center" alt="react" src=".github/badge-react.png" />
+<p>
+
+<h4 align="center">
+	  <img alt="edit" title="#frontend-phrases" src=".github/frontend_phrases.gif">
+</h4>
 </br>
+<h1 align="center">
+	🚧 Frontend Phrase2Frase (ReactJs/Hooks) 🚧 In Progress... 🚀
+</h1>
 
-# Getting Started with Create React App
+<p align="center">
+ <a href="#-about-the-project">About</a> •
+ <a href="#%EF%B8%8F-tech-stack">Tech Stack</a> • 
+ <a href="#-how-it-works">How it works</a> • 
+ <a href="#-how-to-contribute">How to contribute</a> • 
+ <a href="#-author">Author</a> • 
+ <a href="#user-content--license">License</a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## 💻 About the project
 
-In the project directory, you can run:
+The idea about this project is help Portuguese speakers study English.
 
-### `yarn start`
+Access the API [Phrase2Frase](https://phrases2frases.herokuapp.com/random)
+Or https://phrases2frases.herokuapp.com/random?quantity=VALUE
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Example: https://phrases2frases.herokuapp.com/random?quantity=3
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `yarn test`
+## ⚙️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The following tools have been used in the construction of the project so far:
 
-### `yarn build`
+- JavaScript
+- Node.js
+- React.js
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 How it works
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Pre-requisites
 
-### `yarn eject`
+It is a good to have an editor to work with the code like [VSCode](https://code.visualstudio.com/).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### 🧭 Running the code
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+# Clone this repository
+$ git clone https://github.com/thiagogre/frontend-phrases.git
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Access the project folder in your terminal
+$ cd frontend-phrases
 
-## Learn More
+# Install dependencies
+$ yarn
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Run the server
+$ yarn start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# In your browser go to (http://localhost:3000/)
 
-### Code Splitting
+```
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 💪 How to contribute
 
-### Analyzing the Bundle Size
+1. Fork the project.
+2. Create a new branch with your changes: git checkout -b my-feature
+3. Save your changes and create a commit message telling you what you did: git commit -m" feature: My new feature "
+4. Submit your changes: git push origin my-feature
+5. Open a pull request!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+When the merge of your pull request is done, you can delete your branch.
 
-### Making a Progressive Web App
+You can send me as many PR's as you want, I will be honored to review and accept them!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🦸 Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+ <img style="border-radius: 50%;" src="https://avatars0.githubusercontent.com/u/66977846?s=400&u=bf215d9d41feee6c46c7edb210c8e2b26e9659a0&v=4" width="100px;" alt="Thiago Gregorio"/>
+ <br />
+ <sub><b>Thiago Gregorio</b></sub>
+ <br />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+[![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/thiagogre)](https://www.linkedin.com/in/thiagogre/) 
+[![Gmail Badge](https://img.shields.io/badge/-thiagoluiz_16@hotmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:thiagoluiz_16@hotmail.com)](mailto:thiagoluiz_16@hotmail.com)
 
-### `yarn build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📝 License
+
+This project is under the license MIT.
+
+Made with ❤️ by Thiago Gregorio 👋🏽 [Get in touch!](https://www.linkedin.com/in/thiagogre)
+
+---
