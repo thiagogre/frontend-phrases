@@ -16,7 +16,7 @@
   </a>
 </p>
 <p align="center">
-  <img align="center" alt="react" src=".github/badge-react.png" />
+  <img align="center" width="160px" alt="react" src=".github/badge-react.png" />
 <p>
 
 <h4 align="center">
