@@ -23,9 +23,9 @@
 	  <img alt="edit" title="#frontend-phrases" src=".github/frontend_phrases.gif">
 </h4>
 </br>
-<h1 align="center">
+<h2 align="center">
 	🚧 Frontend Phrase2Frase (ReactJs/Hooks) 🚧 In Progress... 🚀
-</h1>
+</h2>
 
 <p align="center">
  <a href="#-about-the-project">About</a> •
