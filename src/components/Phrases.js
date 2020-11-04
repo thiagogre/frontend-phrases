@@ -41,7 +41,7 @@ export const Phrases = () => {
       <h1>Phrases2Frases</h1>
       <input className='input' type='text' placeholder='1' size='1' onChange={event => setQuantity(event.target.value)}></input>
       <input className='btn' type='button' value='Gerar' onClick={phrase}></input>
-      {loading ? <h1 className='loading'>Loading Questions...</h1> : null}
+      {loading ? <h1 className='loading'>Carregando...</h1> : null}
       {!loading && (
         <div className='content'>
         <div className='english'>
