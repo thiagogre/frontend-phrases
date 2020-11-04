@@ -29,6 +29,7 @@ export const Phrases = () => {
         setLoading(false)
       } else {
         setError(true)
+        setLoading(false)
       }
     } catch (error) {
       console.error(error)
@@ -42,7 +43,7 @@ export const Phrases = () => {
       <input className='input' type='text' placeholder='1' size='1' onChange={event => setQuantity(event.target.value)}></input>
       <input className='btn' type='button' value='Gerar' onClick={phrase}></input>
       {loading ? <h1 className='loading'>Carregando...</h1> : null}
-      {!loading && (
+      {!loading && !error &&(
         <div className='content'>
         <div className='english'>
           <img src={'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/emojidex/112/flag-for-united-states_1f1fa-1f1f8.png'} alt='USA' />
