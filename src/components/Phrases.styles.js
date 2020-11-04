@@ -65,4 +65,7 @@ export const Phrase = styled.div`
   .error {
     color: #ff5252;
   }
+  .loading {
+    padding-bottom: 60px;
+  }
 `
