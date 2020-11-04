@@ -63,7 +63,9 @@ export const Phrase = styled.div`
     background-image: linear-gradient(to right, #e74c3c, #3498db);
   }
   .error {
-    color: #ff5252;
+    color: #fff;
+    background-color: #ff5252;
+    padding-bottom: 2rem;
   }
   .loading {
     padding-bottom: 60px;

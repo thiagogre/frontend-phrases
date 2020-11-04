@@ -8,7 +8,7 @@ export const Phrases = () => {
   const [quantity, setQuantity] = useState('')
   const [phrases, setPhrases] = useState('')
   const [frases, setFrases] = useState('')
-  const [error, setError] = useState('')
+  const [error, setError] = useState(false)
   const [loading, setLoading] = useState(false)
 
   const phrase = async () => {
@@ -28,7 +28,7 @@ export const Phrases = () => {
         setError('')
         setLoading(false)
       } else {
-        setError('Digite uma quantidade menor de frases')
+        setError(true)
       }
     } catch (error) {
       console.error(error)
@@ -37,7 +37,7 @@ export const Phrases = () => {
 
   return (
     <Phrase>
-      <h1 className='error' >{error.toUpperCase()}</h1>
+      {error ? <h1 className='error'>Digite uma quantidade menor de frases!!!</h1> : null}
       <h1>Phrases2Frases</h1>
       <input className='input' type='text' placeholder='1' size='1' onChange={event => setQuantity(event.target.value)}></input>
       <input className='btn' type='button' value='Gerar' onClick={phrase}></input>
