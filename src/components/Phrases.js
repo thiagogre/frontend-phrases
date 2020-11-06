@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-import { For } from 'react-loops'
 import { Phrase } from './Phrases.styles'
 
 
@@ -47,15 +46,11 @@ export const Phrases = () => {
         <div className='content'>
         <div className='english'>
           <img src={'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/emojidex/112/flag-for-united-states_1f1fa-1f1f8.png'} alt='USA' />
-          <For of={phrases} as={phrase =>
-            <p><em>{phrase}</em></p>
-          } />
+          {Object.values(phrases).map(phrase => <p><em>{phrase}</em></p>)}
         </div>
         <div className='portuguese'>
           <img src={'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/emojidex/112/flag-for-brazil_1f1e7-1f1f7.png'} alt='BRA' />
-          <For of={frases} as={frase =>
-            <p>{frase}</p>
-          } />
+          {Object.values(frases).map(frase => <p>{frase}</p>)}
         </div>
       </div>
       )}
