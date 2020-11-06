@@ -6,7 +6,6 @@ import { Phrase } from './Phrases.styles'
 export const Phrases = () => {
   const [quantity, setQuantity] = useState('')
   const [phrases, setPhrases] = useState('')
-  const [frases, setFrases] = useState('')
   const [error, setError] = useState(false)
   const [loading, setLoading] = useState(false)
 
@@ -20,10 +19,7 @@ export const Phrases = () => {
         const url = `https://phrases2frases.herokuapp.com/random?quantity=${quantity}`
         const response = await axios.get(url)
         const phrasesResponse = await response.data.body
-        const phrases = phrasesResponse.map(phrase => phrase.phrase)
-        const frases = phrasesResponse.map(frase => frase.frase)
-        setPhrases(phrases)
-        setFrases(frases)
+        setPhrases(phrasesResponse)
         setError('')
         setLoading(false)
       } else {
@@ -46,11 +42,12 @@ export const Phrases = () => {
         <div className='content'>
         <div className='english'>
           <img src={'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/emojidex/112/flag-for-united-states_1f1fa-1f1f8.png'} alt='USA' />
-          {Object.values(phrases).map(phrase => <p><em>{phrase}</em></p>)}
+          {/* {console.log(Object.values(phrases).map(phrases => phrases.phrase))} */}
+          {Object.values(phrases).map(phrases => <p><em>{phrases.phrase}</em></p>)}
         </div>
         <div className='portuguese'>
           <img src={'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/emojidex/112/flag-for-brazil_1f1e7-1f1f7.png'} alt='BRA' />
-          {Object.values(frases).map(frase => <p>{frase}</p>)}
+          {Object.values(phrases).map(phrases => <p>{phrases.frase}</p>)}
         </div>
       </div>
       )}
