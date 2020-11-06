@@ -42,7 +42,6 @@ export const Phrases = () => {
         <div className='content'>
         <div className='english'>
           <img src={'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/emojidex/112/flag-for-united-states_1f1fa-1f1f8.png'} alt='USA' />
-          {/* {console.log(Object.values(phrases).map(phrases => phrases.phrase))} */}
           {Object.values(phrases).map(phrases => <p><em>{phrases.phrase}</em></p>)}
         </div>
         <div className='portuguese'>
