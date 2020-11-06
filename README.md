@@ -20,7 +20,7 @@
 <p>
 
 <h4 align="center">
-	  <img alt="edit" title="#frontend-phrases" src=".github/frontend_phrases.gif">
+	  <img alt="edit" title="#gif" src=".github/phrases2frases.gif">
 </h4>
 </br>
 <h2 align="center">
@@ -103,7 +103,6 @@ You can send me as many PR's as you want, I will be honored to review and accept
 
 
  <img style="border-radius: 50%;" src="https://avatars0.githubusercontent.com/u/66977846?s=400&u=bf215d9d41feee6c46c7edb210c8e2b26e9659a0&v=4" width="100px;" alt="Thiago Gregorio"/>
- <br />
  <sub><b>Thiago Gregorio</b></sub>
  <br />
 
